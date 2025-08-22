@@ -50,8 +50,8 @@ To validate the accuracy of each model, a backtesting process was performed. The
 Each model was fitted on the training data and then used to forecast values for the test period. Accuracy was measured using the following metrics:
 
 Model	RMSE	MAPE
-ARIMA	(0.2753)	0.33%)
-SARIMA	(0.7793)	(1.05%)
+ARIMA	(0.4060)	0.50%)
+SARIMA	(0.4170)	(0.49%)
 
 Evaluation Conclusion: By comparing the results we can see that ARIMA model is better to predict future temperature anomalies.
 It is also evident that, as predicted in the model graph, the anomalies will continue to rise over the next years.
