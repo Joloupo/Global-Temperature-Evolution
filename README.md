@@ -1,10 +1,10 @@
 1. Project Structure
 The project is organized into the following files:
 
-data/: https://data.giss.nasa.gov/gistemp/
+data: https://data.giss.nasa.gov/gistemp/
        csv file Global-mean monthly, seasonal, and annual means, 1880-present, updated through most recent month
 
-notebooks/: Global Temperature Evolution - ARIMA and SARIMA
+notebooks: Global Temperature Evolution - ARIMA and SARIMA
 
 README.md: This file, which summarizes the project.
 
