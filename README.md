@@ -20,7 +20,7 @@ Visualization: A line plot was generated to visualize the evolution of temperatu
 
 # 3. Time Series Modeling
 # 3.1. ARIMA and SARIMA models
-Stationarity Testing: The series was tested for stationarity, a prerequisite for ARIMA models. It was found that the series was not stationary, requiring differencing.
+Stationarity Testing: The series was tested for stationarity, a prerequisite for ARIMA models. The p-value of the Augmented Dickey-Fuller Test (ADF) is 0.80 which is > 0.05 so the series was not stationary, requiring differencing.
 
 ACF and PACF Analysis: Autocorrelation (ACF) and Partial Autocorrelation (PACF) plots were used to identify the model orders.
 
