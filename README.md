@@ -31,7 +31,7 @@ An ARIMA(p, d, q) model was fitted to the data. The orders (p, d, q) were chosen
 
 Order (3, 1, 1):
 
-Justification: By analyzing the Autocorrelation Function (ACF) and Partial Autocorrelation Function (PACF) plots of your time series data, we can identify the underlying structure of the data.
+Justification: The differencing factor d should be kept at 1 since there’s a clear trend and non-stationary data. By analyzing the Autocorrelation Function (ACF) and Partial Autocorrelation Function (PACF) plots of your time series data, we can identify the underlying structure of the data.
 
 The q parameter is the number of significant lags in the ACF plot that "cut off" abruptly, identified as the number os values before droping to the blue area, q=2.
 
